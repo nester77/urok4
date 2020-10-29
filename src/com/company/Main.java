@@ -21,5 +21,10 @@ public class Main {
         System.out.println(rect1.isTheSameRectangle(rect2)) ;
         System.out.println(rect2.isTheSameRectangle(rect3)) ;
         System.out.println(rect3.isTheSameRectangle(rect4)) ;
+
+        Rectangle.printRectanglesCount();
+
+        Rectangle.printClassName(true);
+        Rectangle.printClassName(false);
     }
 }
